@@ -23,13 +23,13 @@ If you haven't already set up your project, head here and follow the instruction
 
 ## Exercise
 
-- [ ] 1. Implement the following route [http://localhost:3000/profile](http://localhost:3000/profile) so it renders `src/components/Profile.js`. Hint, you need to edit 2 files:
+- [x] 1. Implement the following route [http://localhost:3000/profile](http://localhost:3000/profile) so it renders `src/components/Profile.js`. Hint, you need to edit 2 files:
    1. One file is the one where you define the /profile `<Route>`. Which file is that? Hint, think of the component tree and which component should be the parent of `<Profile>`. [Route documentation](https://reacttraining.com/react-router/web/api/Route)
    2. The second file is `src/components/Layout/TopBar.js`, edit the `<Link>` so when the user clicks on the Link it navigates to /profile. [Link documentation](https://reacttraining.com/react-router/web/api/Link)
 
-- [ ] 2. Add a Link component in `Profile.js` to the path "/messages". Why do you think `<Link>` is better than `<a>`? Hint. Look at the network tab in the Chrome Dev Tools and navigate from one page to the other using `<Link>` and then using `<a>`
+- [x] 2. Add a Link component in `Profile.js` to the path "/messages". Why do you think `<Link>` is better than `<a>`? Hint. Look at the network tab in the Chrome Dev Tools and navigate from one page to the other using `<Link>` and then using `<a>`
 
-- [ ] 3. The `NotFound` component should be displayed when no path matches in `<App>`. Example, navigating to [http://localhost:3000/bla-bla-bla](http://localhost:3000/bla-bla-bla) should display NotFound.js. Hint: [https://reacttraining.com/react-router/web/example/no-match](https://reacttraining.com/react-router/web/example/no-match)
+- [x] 3. The `NotFound` component should be displayed when no path matches in `<App>`. Example, navigating to [http://localhost:3000/bla-bla-bla](http://localhost:3000/bla-bla-bla) should display NotFound.js. Hint: [https://reacttraining.com/react-router/web/example/no-match](https://reacttraining.com/react-router/web/example/no-match)
 
 - [ ] 4. Refactor the `Treads` component so it implements the [container component pattern](https://medium.com/@learnreact/container-components-c0e67432e005). You have a `ThreadsContainer` file with some comments and tips. Hint: You will also have to edit the import in `src/components/Messenger/index.js`
 
